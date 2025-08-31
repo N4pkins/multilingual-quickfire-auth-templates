@@ -1,0 +1,7 @@
+﻿services:
+  dotnetauth.api:
+    image: dotnetauth.api
+    build:
+      context: .
+      dockerfile: DotnetAuth.Api/Dockerfile
+
